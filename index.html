@@ -1,0 +1,67 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="headder"> 
+                <h1>Generate a <span class="h1-accent-color">random password</span></h1>
+                <h3>Never use an insecure password again</h3>
+                
+                <div class="button-input">
+                    <button onclick="buttonPressed()">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3006 1.04627C11.7169 1.17749 12 1.56354 12 2.00001V7.00001L16 7.00001C16.3729 7.00001 16.7148 7.20747 16.887 7.5382C17.0592 7.86893 17.0331 8.268 16.8192 8.57347L9.81924 18.5735C9.56894 18.931 9.11564 19.085 8.69936 18.9537C8.28309 18.8225 8 18.4365 8 18L8 13H4C3.62713 13 3.28522 12.7926 3.11302 12.4618C2.94083 12.1311 2.96694 11.732 3.18077 11.4265L10.1808 1.42655C10.4311 1.06898 10.8844 0.915053 11.3006 1.04627Z" fill="white"/>
+                    </svg>
+                    <span class="button-text"> Generate Passwords</span>
+                </button>
+                
+                <input type="number" id="passLenght" name="passLen"><br>
+                </div>
+                
+            </div>
+            <div class="main">
+                <div class="passwords">
+                    <div class="pass">
+                        <p id="pass1" class="pass1">
+                            <svg width="20" height="5" viewBox="0 0 20 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 2.5C5 3.88071 3.88071 5 2.5 5C1.11929 5 0 3.88071 0 2.5C0 1.11929 1.11929 0 2.5 0C3.88071 0 5 1.11929 5 2.5Z" fill="#202B3C"/>
+                            <path d="M12.5 2.5C12.5 3.88071 11.3807 5 10 5C8.61929 5 7.5 3.88071 7.5 2.5C7.5 1.11929 8.61929 0 10 0C11.3807 0 12.5 1.11929 12.5 2.5Z" fill="#202B3C"/>
+                            <path d="M17.5 5C18.8807 5 20 3.88071 20 2.5C20 1.11929 18.8807 0 17.5 0C16.1193 0 15 1.11929 15 2.5C15 3.88071 16.1193 5 17.5 5Z" fill="#202B3C"/>
+                            </svg>
+                        </p>
+                    </div>
+                    <div class="pass">
+                        <p id="pass2">
+                            <svg width="20" height="5" viewBox="0 0 20 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 2.5C5 3.88071 3.88071 5 2.5 5C1.11929 5 0 3.88071 0 2.5C0 1.11929 1.11929 0 2.5 0C3.88071 0 5 1.11929 5 2.5Z" fill="#202B3C"/>
+                            <path d="M12.5 2.5C12.5 3.88071 11.3807 5 10 5C8.61929 5 7.5 3.88071 7.5 2.5C7.5 1.11929 8.61929 0 10 0C11.3807 0 12.5 1.11929 12.5 2.5Z" fill="#202B3C"/>
+                            <path d="M17.5 5C18.8807 5 20 3.88071 20 2.5C20 1.11929 18.8807 0 17.5 0C16.1193 0 15 1.11929 15 2.5C15 3.88071 16.1193 5 17.5 5Z" fill="#202B3C"/>
+                            </svg>
+                        </p>
+                    </div>
+                    <div class="pass">
+                        <p id="pass3">
+                            <svg width="20" height="5" viewBox="0 0 20 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 2.5C5 3.88071 3.88071 5 2.5 5C1.11929 5 0 3.88071 0 2.5C0 1.11929 1.11929 0 2.5 0C3.88071 0 5 1.11929 5 2.5Z" fill="#202B3C"/>
+                            <path d="M12.5 2.5C12.5 3.88071 11.3807 5 10 5C8.61929 5 7.5 3.88071 7.5 2.5C7.5 1.11929 8.61929 0 10 0C11.3807 0 12.5 1.11929 12.5 2.5Z" fill="#202B3C"/>
+                            <path d="M17.5 5C18.8807 5 20 3.88071 20 2.5C20 1.11929 18.8807 0 17.5 0C16.1193 0 15 1.11929 15 2.5C15 3.88071 16.1193 5 17.5 5Z" fill="#202B3C"/>
+                            </svg>
+                        </p>
+                    </div>
+                    <div class="pass">
+                        <p id="pass4">
+                            <svg width="20" height="5" viewBox="0 0 20 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 2.5C5 3.88071 3.88071 5 2.5 5C1.11929 5 0 3.88071 0 2.5C0 1.11929 1.11929 0 2.5 0C3.88071 0 5 1.11929 5 2.5Z" fill="#202B3C"/>
+                            <path d="M12.5 2.5C12.5 3.88071 11.3807 5 10 5C8.61929 5 7.5 3.88071 7.5 2.5C7.5 1.11929 8.61929 0 10 0C11.3807 0 12.5 1.11929 12.5 2.5Z" fill="#202B3C"/>
+                            <path d="M17.5 5C18.8807 5 20 3.88071 20 2.5C20 1.11929 18.8807 0 17.5 0C16.1193 0 15 1.11929 15 2.5C15 3.88071 16.1193 5 17.5 5Z" fill="#202B3C"/>
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

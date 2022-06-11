@@ -1,0 +1,123 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1C1C1C;
+}
+
+.container {
+    background: #1F2937;
+    width: 550px;
+    height: 550px;
+    margin: 20px auto;
+    border-radius: .2%;
+}
+
+.headder{
+    height: 280px;
+    padding-top: 110px;
+    padding-right: 120px;
+    margin-bottom: -50px;
+    border-bottom: 2px solid #2F3E53;
+    margin: 52px
+}
+
+h1{
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 118px;
+    font-weight: 800;
+    font-size: 37px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #fff;
+}
+
+.h1-accent-color{
+    color: #4ADF86;
+}
+
+h3{
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    top: 208px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+
+button{
+    background: #10B981;
+    border: none;
+    color: white;
+    width: 223px;
+    height: 46px;
+    left: 52px;
+    margin-top: 25px;
+    border-radius: 6px;
+    line-height: 24px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+button:hover{
+    transition: .2s ease-in-out;
+    opacity: .9;
+}
+
+
+.main{
+    margin: 52px;
+    margin-top: -25px;
+}
+
+.passwords{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px; 
+}
+
+.pass{
+    background: #273549;
+    border-radius: 6px;
+    height: 39px;
+    width: 211px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pass:hover{
+    background: #273549;
+    opacity: .9;
+}
+
+p{
+    margin-top: 8px;
+    color: #10B981;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.button-input{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.button-input input{
+    margin-top: 25px;
+    background: #273549;
+    border: none;
+    width: 200px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
