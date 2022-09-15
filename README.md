@@ -20,3 +20,6 @@ Solo projects are meant to challenge the skills you've learnt so far through the
 - Mobile-first workflow
 - Dark version
 - Figma design files from Scrimba
+
+## Live
+[Password Generation](https://vladeanclaudiu.github.io/PasswordGen/)
